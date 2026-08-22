@@ -1,14 +1,28 @@
-LexIA — Análise Inteligente de Normas Jurídicas
+LexIA — Intelligent Legal Document Analysis
 
-O LexIA é uma aplicação full stack desenvolvida para processar, pesquisar e extrair informações estruturadas de normas jurídicas.
+LexIA is a full-stack application designed to process, search, and extract structured information from legal documents.
 
-O sistema realiza a ingestão de documentos em TXT, Markdown e PDF, preserva a estrutura dos artigos e permite pesquisas combinando busca lexical BM25 e similaridade vetorial, utilizando Reciprocal Rank Fusion (RRF) para melhorar a recuperação dos trechos relevantes.
+The system supports document ingestion from TXT, Markdown, and PDF files while preserving the structure of legal articles. It provides a hybrid search engine combining BM25 lexical search and vector similarity, using Reciprocal Rank Fusion (RRF) to improve the retrieval of relevant content.
 
-A plataforma também possui um mecanismo de extração estruturada capaz de identificar informações como obrigações, prazos, penalidades e referências. A extração pode funcionar por meio de regras determinísticas, de forma totalmente offline, ou utilizando um LLM de maneira opcional.
+LexIA also includes a structured information extraction pipeline capable of identifying elements such as obligations, deadlines, penalties, and references. The extraction system can operate entirely offline using deterministic rules or optionally integrate with an LLM.
 
-Um dos principais objetivos do projeto é tornar os resultados mensuráveis. Para isso, o LexIA possui um golden set e mecanismos de avaliação utilizando métricas como Macro-F1, Micro-F1, Recall@K e MRR.
+A key feature of the project is its focus on measurable evaluation. LexIA includes a golden dataset and evaluation pipeline using metrics such as Macro-F1, Micro-F1, Recall@K, and MRR to measure extraction and retrieval quality.
 
-Principais tecnologias
+Key Features
+Legal document ingestion from TXT, Markdown, and PDF
+Article-aware document chunking
+Hybrid lexical and vector search
+BM25 and TF-IDF retrieval
+Reciprocal Rank Fusion (RRF)
+Structured information extraction
+Pydantic-based data validation
+Optional LLM integration
+Offline-first architecture
+Automatic JSON validation and recovery
+Rule-based extraction fallback
+Golden Set evaluation
+Automated backend and frontend tests
+Tech Stack
 Python
 FastAPI
 React
@@ -17,20 +31,49 @@ Vite
 Pydantic
 BM25
 TF-IDF
-Reciprocal Rank Fusion (RRF)
 NLP
 LLM
 Pytest
 Vitest
-Destaques técnicos
-Chunking baseado na estrutura dos artigos jurídicos
-Busca híbrida lexical + vetorial
-Extração estruturada com schema Pydantic
-Integração opcional com LLMs
-Validação e recuperação de JSON inválido
-Fallback automático para o extrator baseado em regras
-Golden set para avaliação dos resultados
-Testes automatizados de backend e frontend
-Execução offline sem dependência obrigatória de serviços externos
+Evaluation
 
-O projeto foi desenvolvido com foco em engenharia de software, recuperação de informação, processamento de linguagem natural e aplicações de IA, buscando demonstrar não apenas a implementação de funcionalidades, mas também a capacidade de medir e avaliar a qualidade dos resultados.
+The project includes automated evaluation to measure the quality of both information extraction and document retrieval.
+
+Current evaluation results include:
+
+Macro-F1: 0.972
+Recall@5: 1.000
+MRR: 0.903
+Backend test coverage: 95%
+
+These metrics provide an objective way to evaluate the effectiveness of the implemented pipelines.
+
+Architecture
+
+LexIA is divided into frontend and backend layers:
+
+Frontend
+
+React
+TypeScript
+Vite
+
+Backend
+
+Python
+FastAPI
+Pydantic
+Search and extraction pipelines
+
+AI / Information Retrieval
+
+BM25
+TF-IDF
+Vector similarity
+Reciprocal Rank Fusion
+Optional LLM integration
+Project Goals
+
+The main goal of LexIA is to explore the application of software engineering, information retrieval, natural language processing, and artificial intelligence to the analysis of legal documents.
+
+The project focuses not only on implementing features, but also on testing, validation, evaluation, and measurable system performance.
