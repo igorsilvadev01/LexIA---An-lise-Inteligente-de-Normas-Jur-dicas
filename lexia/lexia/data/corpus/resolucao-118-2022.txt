@@ -1,0 +1,41 @@
+AGÊNCIA NACIONAL DE REGULAÇÃO DIGITAL
+
+RESOLUÇÃO Nº 118, DE 5 DE SETEMBRO DE 2022
+
+(Documento fictício, criado para fins de teste do LexIA. Não corresponde a norma vigente.)
+
+Estabelece requisitos mínimos de transparência algorítmica para plataformas digitais de grande porte.
+
+A DIRETORIA COLEGIADA DA AGÊNCIA NACIONAL DE REGULAÇÃO DIGITAL, no uso das atribuições que lhe confere o seu Regimento Interno, e tendo em vista o disposto na Lei nº 4.444, de 12 de março de 2021, resolve:
+
+TÍTULO I
+DO ÂMBITO DE APLICAÇÃO
+
+Art. 1º Esta Resolução aplica-se às plataformas digitais que registrem mais de 1.000.000 (um milhão) de usuários ativos mensais no território nacional.
+
+Art. 2º Considera-se sistema de recomendação o conjunto de regras automatizadas que ordena, filtra ou prioriza conteúdo apresentado ao usuário.
+
+TÍTULO II
+DOS DEVERES DE TRANSPARÊNCIA
+
+Art. 3º A plataforma digital deverá publicar relatório semestral de transparência algorítmica, contendo a descrição dos critérios de ordenação de conteúdo e as métricas de moderação aplicadas.
+
+Art. 4º A plataforma digital deve disponibilizar ao usuário, em linguagem simples e acessível, explicação sobre os principais parâmetros utilizados pelo sistema de recomendação.
+
+Art. 5º O relatório de que trata o art. 3º deverá ser encaminhado à Agência no prazo de 45 (quarenta e cinco) dias após o encerramento de cada semestre.
+
+Art. 6º A plataforma digital deverá manter canal eletrônico de atendimento para pedidos de revisão de decisões automatizadas, respondendo-os no prazo de 20 (vinte) dias.
+
+TÍTULO III
+DAS SANÇÕES
+
+Art. 7º O descumprimento desta Resolução sujeita a plataforma digital à advertência e à multa de até 2% (dois por cento) do faturamento anual no País, limitada a R$ 30.000.000,00 por infração.
+
+Art. 8º Em caso de descumprimento reiterado, a Agência poderá determinar a suspensão do sistema de recomendação pelo prazo de até 3 (três) meses.
+
+TÍTULO IV
+DA VIGÊNCIA
+
+Art. 9º Esta Resolução entra em vigor em 1º de janeiro de 2023.
+
+Brasília, 5 de setembro de 2022.

@@ -1,0 +1,23 @@
+
+ RUN  v3.2.7 /home/ubuntu/lexia/frontend
+
+ ✓ src/App.test.tsx > App > mostra estatísticas e documentos carregados 52ms
+ ✓ src/App.test.tsx > App > busca e exibe trechos com artigo e scores 126ms
+ ✓ src/App.test.tsx > App > usa consulta sugerida ao clicar no chip 26ms
+ ✓ src/App.test.tsx > App > restringe a busca ao documento selecionado 73ms
+ ✓ src/App.test.tsx > App > extrai campos estruturados do documento selecionado 61ms
+ ✓ src/App.test.tsx > App > mostra métricas de avaliação e destaca campo fraco 43ms
+ ✓ src/App.test.tsx > App > ingere texto colado e seleciona o documento resultante 179ms
+ ✓ src/App.test.tsx > App > carrega corpus de exemplo e remove documento 25ms
+ ✓ src/App.test.tsx > App > exibe erro quando a API falha 27ms
+ ✓ src/api.test.ts > api > envia JSON com content-type na busca 2ms
+ ✓ src/api.test.ts > api > propaga document_id quando a busca é restrita 0ms
+ ✓ src/api.test.ts > api > não força content-type em upload multipart 1ms
+ ✓ src/api.test.ts > api > trata 204 sem corpo na remoção 1ms
+ ✓ src/api.test.ts > api > lança ApiError com status em falhas HTTP 1ms
+
+ Test Files  2 passed (2)
+      Tests  14 passed (14)
+   Start at  15:43:56
+   Duration  1.58s (transform 84ms, setup 133ms, collect 140ms, tests 619ms, environment 453ms, prepare 88ms)
+

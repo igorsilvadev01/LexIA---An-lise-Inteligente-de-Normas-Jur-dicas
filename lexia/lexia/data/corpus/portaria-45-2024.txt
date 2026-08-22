@@ -1,0 +1,40 @@
+MINISTÉRIO DA GESTÃO E DA INOVAÇÃO DIGITAL
+
+PORTARIA Nº 45, DE 09/02/2024
+
+(Documento fictício, criado para fins de teste do LexIA. Escrito em estilo
+deliberadamente diferente dos demais — obrigações sem verbo modal explícito,
+prazos por referência a dia útil e data em formato numérico — para medir a
+degradação do extrator determinístico em textos fora do padrão.)
+
+Disciplina o compartilhamento de bases de dados entre órgãos da administração pública federal e institui o inventário de ativos de informação.
+
+O MINISTRO DE ESTADO DA GESTÃO E DA INOVAÇÃO DIGITAL, no uso de suas atribuições, e tendo em vista o disposto na Lei nº 12.527, de 18 de novembro de 2011, resolve:
+
+CAPÍTULO I
+DO OBJETO
+
+Art. 1º Esta Portaria disciplina o compartilhamento de bases de dados entre órgãos da administração pública federal direta e indireta.
+
+CAPÍTULO II
+DAS COMPETÊNCIAS E VEDAÇÕES
+
+Art. 2º Compete ao gestor local de dados encaminhar à Secretaria de Governo Digital o inventário de ativos de informação até o quinto dia útil de cada mês.
+
+Art. 3º É vedado o compartilhamento de bases de dados com terceiros sem prévia celebração de acordo de cooperação técnica.
+
+Art. 4º Cabe ao órgão receptor de dados assegurar a rastreabilidade dos acessos realizados por seus agentes.
+
+Art. 5º A Secretaria de Governo Digital publicará, anualmente, a relação dos acordos de compartilhamento celebrados.
+
+CAPÍTULO III
+DA RESPONSABILIZAÇÃO
+
+Art. 6º A inobservância do disposto nesta Portaria sujeita o agente público à responsabilização funcional, nos termos da legislação aplicável.
+
+CAPÍTULO IV
+DA VIGÊNCIA
+
+Art. 7º Esta Portaria entra em vigor na data de sua publicação.
+
+Brasília, 09/02/2024.

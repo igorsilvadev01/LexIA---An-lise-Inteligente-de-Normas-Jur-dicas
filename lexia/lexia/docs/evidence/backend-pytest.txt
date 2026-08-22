@@ -1,0 +1,156 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-9.1.1, pluggy-1.6.0 -- /home/ubuntu/lexia/.venv/bin/python
+rootdir: /home/ubuntu/lexia/backend
+configfile: pyproject.toml
+testpaths: tests
+plugins: cov-7.1.0, anyio-4.14.2
+collecting ... collected 113 items
+
+tests/test_api.py::test_health PASSED                                    [  0%]
+tests/test_api.py::test_stats PASSED                                     [  1%]
+tests/test_api.py::test_listar_documentos PASSED                         [  2%]
+tests/test_api.py::test_ingestao_por_texto PASSED                        [  3%]
+tests/test_api.py::test_ingestao_por_texto_valida_tamanho_minimo PASSED  [  4%]
+tests/test_api.py::test_upload_de_arquivo PASSED                         [  5%]
+tests/test_api.py::test_upload_tipo_nao_suportado PASSED                 [  6%]
+tests/test_api.py::test_carregar_corpus PASSED                           [  7%]
+tests/test_api.py::test_busca_retorna_artigo_relevante PASSED            [  7%]
+tests/test_api.py::test_busca_valida_top_k PASSED                        [  8%]
+tests/test_api.py::test_documento_e_chunks PASSED                        [  9%]
+tests/test_api.py::test_documento_inexistente PASSED                     [ 10%]
+tests/test_api.py::test_extracao_estruturada PASSED                      [ 11%]
+tests/test_api.py::test_extracao_usa_cache_e_refresh PASSED              [ 12%]
+tests/test_api.py::test_remocao_de_documento PASSED                      [ 13%]
+tests/test_api.py::test_avaliacao_via_api PASSED                         [ 14%]
+tests/test_api.py::test_openapi_documentado PASSED                       [ 15%]
+tests/test_chunking.py::test_um_chunk_por_artigo PASSED                  [ 15%]
+tests/test_chunking.py::test_preambulo_vira_chunk_sem_artigo PASSED      [ 16%]
+tests/test_chunking.py::test_secao_e_propagada_para_o_chunk PASSED       [ 17%]
+tests/test_chunking.py::test_offsets_apontam_para_o_texto_original PASSED [ 18%]
+tests/test_chunking.py::test_ids_sao_deterministicos PASSED              [ 19%]
+tests/test_chunking.py::test_artigo_longo_e_dividido_com_sobreposicao PASSED [ 20%]
+tests/test_chunking.py::test_paragrafo_gigante_e_fatiado_em_janelas PASSED [ 21%]
+tests/test_chunking.py::test_documento_sem_artigos_gera_chunk_unico PASSED [ 22%]
+tests/test_chunking.py::test_parametros_invalidos[0-0] PASSED            [ 23%]
+tests/test_chunking.py::test_parametros_invalidos[100-100] PASSED        [ 23%]
+tests/test_chunking.py::test_parametros_invalidos[100--1] PASSED         [ 24%]
+tests/test_chunking.py::test_article_segments_cobre_todo_o_texto PASSED  [ 25%]
+tests/test_cli.py::test_ingest_cria_indice PASSED                        [ 26%]
+tests/test_cli.py::test_ingest_arquivo_unico PASSED                      [ 27%]
+tests/test_cli.py::test_search_imprime_resultados PASSED                 [ 28%]
+tests/test_cli.py::test_extract_por_nome_de_arquivo PASSED               [ 29%]
+tests/test_cli.py::test_extract_documento_inexistente PASSED             [ 30%]
+tests/test_cli.py::test_eval_escreve_relatorio PASSED                    [ 30%]
+tests/test_cli.py::test_eval_falha_quando_abaixo_do_limiar PASSED        [ 31%]
+tests/test_evaluation.py::test_prf_casos_de_borda PASSED                 [ 32%]
+tests/test_evaluation.py::test_token_set_similarity PASSED               [ 33%]
+tests/test_evaluation.py::test_greedy_match_pareia_um_para_um PASSED     [ 34%]
+tests/test_evaluation.py::test_scalar_match_abstencao_nao_conta_como_erro PASSED [ 35%]
+tests/test_evaluation.py::test_scalar_match_subject_usa_similaridade PASSED [ 36%]
+tests/test_evaluation.py::test_accumulator_extracao_perfeita_da_f1_um PASSED [ 37%]
+tests/test_evaluation.py::test_accumulator_penaliza_artigo_errado PASSED [ 38%]
+tests/test_evaluation.py::test_metricas_de_recuperacao PASSED            [ 38%]
+tests/test_evaluation.py::test_golden_set_valida_contra_o_schema PASSED  [ 39%]
+tests/test_evaluation.py::test_avaliacao_de_extracao_ponta_a_ponta PASSED [ 40%]
+tests/test_evaluation.py::test_avaliacao_de_recuperacao PASSED           [ 41%]
+tests/test_evaluation.py::test_render_markdown_contem_tabelas PASSED     [ 42%]
+tests/test_evaluation.py::test_campos_de_cabecalho_tem_f1_perfeito_no_corpus[norm_type] PASSED [ 43%]
+tests/test_evaluation.py::test_campos_de_cabecalho_tem_f1_perfeito_no_corpus[number] PASSED [ 44%]
+tests/test_evaluation.py::test_campos_de_cabecalho_tem_f1_perfeito_no_corpus[year] PASSED [ 45%]
+tests/test_evaluation.py::test_campos_de_cabecalho_tem_f1_perfeito_no_corpus[issuing_body] PASSED [ 46%]
+tests/test_evaluation.py::test_campos_de_cabecalho_tem_f1_perfeito_no_corpus[subject] PASSED [ 46%]
+tests/test_extraction_llm.py::test_build_prompt_v2_tem_regras_antialucinacao PASSED [ 47%]
+tests/test_extraction_llm.py::test_build_prompt_versao_inexistente PASSED [ 48%]
+tests/test_extraction_llm.py::test_todas_as_versoes_tem_placeholders PASSED [ 49%]
+tests/test_extraction_llm.py::test_parse_json_tolera_cerca_markdown_e_texto_ao_redor PASSED [ 50%]
+tests/test_extraction_llm.py::test_parse_json_sem_objeto PASSED          [ 51%]
+tests/test_extraction_llm.py::test_extrator_llm_caminho_felz PASSED      [ 52%]
+tests/test_extraction_llm.py::test_extrator_llm_repara_resposta_invalida PASSED [ 53%]
+tests/test_extraction_llm.py::test_extrator_llm_falha_apos_reparo PASSED [ 53%]
+tests/test_extraction_llm.py::test_extrator_llm_valida_schema_e_repara_campo_invalido PASSED [ 54%]
+tests/test_extraction_llm.py::test_extrator_llm_trunca_documento_muito_grande PASSED [ 55%]
+tests/test_extraction_llm.py::test_http_transport_provedor_desconhecido PASSED [ 56%]
+tests/test_extraction_llm.py::test_http_transport_sem_chave PASSED       [ 57%]
+tests/test_extraction_llm.py::test_service_usa_regras_por_padrao PASSED  [ 58%]
+tests/test_extraction_llm.py::test_service_usa_llm_quando_configurado PASSED [ 59%]
+tests/test_extraction_llm.py::test_service_faz_fallback_para_regras_quando_llm_falha PASSED [ 60%]
+tests/test_extraction_rules.py::test_cabecalho_tipo_numero_e_datas PASSED [ 61%]
+tests/test_extraction_rules.py::test_orgao_e_ementa PASSED               [ 61%]
+tests/test_extraction_rules.py::test_obrigacoes_com_ator_artigo_e_evidencia PASSED [ 62%]
+tests/test_extraction_rules.py::test_cabecalho_de_capitulo_nao_e_obrigacao PASSED [ 63%]
+tests/test_extraction_rules.py::test_prazos_normalizados PASSED          [ 64%]
+tests/test_extraction_rules.py::test_penalidades_classificadas_com_valor PASSED [ 65%]
+tests/test_extraction_rules.py::test_referencias_canonizadas_sem_auto_referencia PASSED [ 66%]
+tests/test_extraction_rules.py::test_data_numerica_e_vigencia_na_publicacao PASSED [ 67%]
+tests/test_extraction_rules.py::test_limitacao_conhecida_do_baseline PASSED [ 68%]
+tests/test_extraction_rules.py::test_avisos_quando_cabecalho_desconhecido PASSED [ 69%]
+tests/test_index.py::test_bm25_ranqueia_documento_mais_relevante PASSED  [ 69%]
+tests/test_index.py::test_bm25_ignora_consulta_sem_termos_uteis PASSED   [ 70%]
+tests/test_index.py::test_bm25_vazio PASSED                              [ 71%]
+tests/test_index.py::test_bm25_respeita_top_k PASSED                     [ 72%]
+tests/test_index.py::test_tfidf_cosseno_em_zero_um PASSED                [ 73%]
+tests/test_index.py::test_tfidf_termo_desconhecido_nao_retorna_nada PASSED [ 74%]
+tests/test_index.py::test_tfidf_reconstroi_apos_novo_documento PASSED    [ 75%]
+tests/test_index.py::test_rrf_prioriza_consenso_entre_rankings PASSED    [ 76%]
+tests/test_index.py::test_rrf_aplica_pesos PASSED                        [ 76%]
+tests/test_index.py::test_rrf_sem_entradas PASSED                        [ 77%]
+tests/test_ingestion_store.py::test_read_bytes_txt_normaliza PASSED      [ 78%]
+tests/test_ingestion_store.py::test_read_bytes_pdf_extrai_texto PASSED   [ 79%]
+tests/test_ingestion_store.py::test_read_bytes_extensao_nao_suportada PASSED [ 80%]
+tests/test_ingestion_store.py::test_read_bytes_documento_vazio PASSED    [ 81%]
+tests/test_ingestion_store.py::test_document_id_determinístico_e_sensivel_ao_conteudo PASSED [ 82%]
+tests/test_ingestion_store.py::test_guess_title_usa_primeira_linha_relevante PASSED [ 83%]
+tests/test_ingestion_store.py::test_iter_corpus_ordem_estavel PASSED     [ 84%]
+tests/test_ingestion_store.py::test_store_ingestao_idempotente PASSED    [ 84%]
+tests/test_ingestion_store.py::test_store_rejeita_texto_vazio PASSED     [ 85%]
+tests/test_ingestion_store.py::test_store_busca_encontra_artigo_correto PASSED [ 86%]
+tests/test_ingestion_store.py::test_store_busca_pode_filtrar_por_documento PASSED [ 87%]
+tests/test_ingestion_store.py::test_store_busca_sem_resultado_para_consulta_vazia PASSED [ 88%]
+tests/test_ingestion_store.py::test_store_remove_documento_e_reindexa PASSED [ 89%]
+tests/test_ingestion_store.py::test_store_persistencia_roundtrip PASSED  [ 90%]
+tests/test_ingestion_store.py::test_store_load_de_caminho_inexistente PASSED [ 91%]
+tests/test_ingestion_store.py::test_chunks_of_ordenado PASSED            [ 92%]
+tests/test_text.py::test_strip_accents_preserva_tamanho PASSED           [ 92%]
+tests/test_text.py::test_normalize_whitespace_junta_hifenizacao_de_pdf PASSED [ 93%]
+tests/test_text.py::test_normalize_whitespace_colapsa_espacos_e_linhas PASSED [ 94%]
+tests/test_text.py::test_tokenize_remove_stopwords_e_acentos PASSED      [ 95%]
+tests/test_text.py::test_tokenize_pode_manter_stopwords PASSED           [ 96%]
+tests/test_text.py::test_normalize_key_ignora_pontuacao_e_caixa PASSED   [ 97%]
+tests/test_text.py::test_sentences_nao_quebra_em_abreviacao_de_artigo PASSED [ 98%]
+tests/test_text.py::test_parse_pt_date_formato_longo_e_numerico PASSED   [ 99%]
+tests/test_text.py::test_parse_pt_date_retorna_none_sem_data PASSED      [100%]
+
+=============================== warnings summary ===============================
+../.venv/lib/python3.10/site-packages/fastapi/testclient.py:1
+  /home/ubuntu/lexia/.venv/lib/python3.10/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.10.12-final-0 _______________
+
+Name                         Stmts   Miss  Cover   Missing
+----------------------------------------------------------
+app/__init__.py                  1      0   100%
+app/api.py                     128      4    97%   118-119, 129, 199
+app/chunking.py                 98      6    94%   28, 74, 113, 125-126, 145
+app/cli.py                      91      2    98%   59-60
+app/config.py                   54     11    80%   16, 23-26, 33-36, 71-72
+app/dates.py                    21      0   100%
+app/evaluation/__init__.py       3      0   100%
+app/evaluation/metrics.py      107      1    99%   86
+app/evaluation/runner.py        57      1    98%   43
+app/extraction/__init__.py       2      0   100%
+app/extraction/llm.py           73     10    86%   55, 75-91, 94-111
+app/extraction/prompts.py       14      0   100%
+app/extraction/rules.py        150      7    95%   131, 141, 161, 165, 188, 192, 215
+app/extraction/service.py       32      1    97%   71
+app/index.py                   125      6    95%   106-109, 142, 151
+app/ingestion.py                38      0   100%
+app/models.py                   87      1    99%   35
+app/retrieval.py                21      0   100%
+app/store.py                    88      3    97%   106, 118, 120
+app/text.py                     30      0   100%
+----------------------------------------------------------
+TOTAL                         1220     53    96%
+======================== 113 passed, 1 warning in 1.90s ========================

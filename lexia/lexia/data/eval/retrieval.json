@@ -1,0 +1,17 @@
+{
+  "$comment": "Consultas de avaliação da recuperação. 'relevant' lista pares (arquivo do corpus, artigo) considerados corretos por anotação manual.",
+  "queries": [
+    {"query": "prazo para responder pedido de acesso do titular", "relevant": [["lei-4444-2021.txt", "Art. 4º"]]},
+    {"query": "relatório de impacto à proteção de dados pessoais", "relevant": [["lei-4444-2021.txt", "Art. 3º"]]},
+    {"query": "multa por descumprimento de transparência algorítmica", "relevant": [["resolucao-118-2022.txt", "Art. 7º"]]},
+    {"query": "suspensão do sistema de recomendação", "relevant": [["resolucao-118-2022.txt", "Art. 8º"]]},
+    {"query": "em quantas horas o fornecedor deve comunicar um incidente de segurança", "relevant": [["instrucao-normativa-27-2023.txt", "Art. 2º"]]},
+    {"query": "trilha de auditoria dos acessos administrativos", "relevant": [["instrucao-normativa-27-2023.txt", "Art. 4º"]]},
+    {"query": "prazo para apresentar defesa escrita no procedimento sancionador", "relevant": [["decreto-9876-2019.txt", "Art. 3º"]]},
+    {"query": "multa diária até a cessação da conduta", "relevant": [["decreto-9876-2019.txt", "Art. 5º"]]},
+    {"query": "vedação de compartilhamento de bases de dados com terceiros", "relevant": [["portaria-45-2024.txt", "Art. 3º"]]},
+    {"query": "quem publica a relação dos acordos de compartilhamento", "relevant": [["portaria-45-2024.txt", "Art. 5º"]]},
+    {"query": "inventário de ativos de informação", "relevant": [["portaria-45-2024.txt", "Art. 2º"]]},
+    {"query": "quando a lei de dados em serviços públicos digitais entra em vigor", "relevant": [["lei-4444-2021.txt", "Art. 9º"]]}
+  ]
+}

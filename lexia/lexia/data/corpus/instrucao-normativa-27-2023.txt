@@ -1,0 +1,39 @@
+MINISTÉRIO DA ECONOMIA DIGITAL
+
+INSTRUÇÃO NORMATIVA Nº 27, DE 18 DE ABRIL DE 2023
+
+(Documento fictício, criado para fins de teste do LexIA. Não corresponde a norma vigente.)
+
+Institui obrigações de reporte periódico de incidentes de segurança da informação para fornecedores de soluções tecnológicas contratadas pela administração pública.
+
+O SECRETÁRIO DE TECNOLOGIA DO MINISTÉRIO DA ECONOMIA DIGITAL, no uso de suas atribuições, e tendo em vista o disposto na Lei nº 4.444, de 12 de março de 2021, e no Decreto nº 9.876, de 27 de junho de 2019, resolve:
+
+CAPÍTULO I
+DO OBJETO E DO ÂMBITO
+
+Art. 1º Esta Instrução Normativa institui obrigações de reporte de incidentes de segurança da informação aplicáveis aos fornecedores de soluções tecnológicas contratados por órgãos da administração pública federal direta.
+
+CAPÍTULO II
+DAS OBRIGAÇÕES DE REPORTE
+
+Art. 2º O fornecedor deverá comunicar ao órgão contratante todo incidente de segurança da informação no prazo de 24 (vinte e quatro) horas, contado da sua detecção.
+
+Art. 3º O fornecedor deve encaminhar relatório técnico consolidado do incidente no prazo de 5 (cinco) dias úteis, contado da comunicação inicial.
+
+Art. 4º O fornecedor deverá manter trilha de auditoria dos acessos administrativos por, no mínimo, 12 (doze) meses.
+
+Art. 5º É obrigatória a designação, pelo fornecedor, de ponto focal técnico responsável pela comunicação de incidentes.
+
+CAPÍTULO III
+DAS PENALIDADES
+
+Art. 6º O descumprimento dos prazos previstos nos arts. 2º e 3º sujeita o fornecedor à advertência e à multa de R$ 20.000,00 por dia de atraso.
+
+Art. 7º A reiteração da conduta autoriza a suspensão temporária de participação em licitação pelo prazo de até 2 (dois) anos.
+
+CAPÍTULO IV
+DA VIGÊNCIA
+
+Art. 8º Esta Instrução Normativa entra em vigor em 2 de maio de 2023.
+
+Brasília, 18 de abril de 2023.

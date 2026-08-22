@@ -1,0 +1,44 @@
+PRESIDÊNCIA DA REPÚBLICA
+
+LEI Nº 4.444, DE 12 DE MARÇO DE 2021
+
+(Documento fictício, criado para fins de teste do LexIA. Não corresponde a norma vigente.)
+
+Dispõe sobre o tratamento de dados pessoais em serviços públicos digitais e estabelece deveres de transparência para os órgãos da administração pública federal.
+
+O PRESIDENTE DA REPÚBLICA, no uso da atribuição que lhe confere o art. 84 da Constituição, e tendo em vista o disposto na Lei nº 13.709, de 14 de agosto de 2018, decreta:
+
+CAPÍTULO I
+DAS DISPOSIÇÕES GERAIS
+
+Art. 1º Esta Lei estabelece regras para o tratamento de dados pessoais realizado por órgãos e entidades da administração pública federal na prestação de serviços públicos digitais.
+
+Art. 2º Para os efeitos desta Lei, considera-se serviço público digital todo serviço prestado por meio de canal eletrônico que exija identificação do titular de dados pessoais.
+
+CAPÍTULO II
+DOS DEVERES DOS ÓRGÃOS PÚBLICOS
+
+Art. 3º O órgão público deverá publicar, em seu sítio eletrônico oficial, relatório de impacto à proteção de dados pessoais referente a cada serviço público digital que oferecer.
+
+Art. 4º O controlador deverá responder às solicitações de acesso formuladas pelo titular no prazo de 15 (quinze) dias, contado do recebimento do pedido.
+
+Art. 5º O encarregado pelo tratamento de dados pessoais deve manter registro atualizado das operações de tratamento e disponibilizá-lo à autoridade competente quando requisitado.
+
+Art. 6º Fica obrigada a administração pública federal a comunicar à autoridade nacional qualquer incidente de segurança que possa acarretar risco relevante aos titulares, no prazo de 2 (dois) dias úteis.
+
+CAPÍTULO III
+DAS SANÇÕES ADMINISTRATIVAS
+
+Art. 7º O descumprimento do disposto nos arts. 3º a 6º sujeita o infrator às seguintes sanções administrativas:
+I - advertência, com indicação de prazo para adoção de medidas corretivas;
+II - multa simples de até R$ 50.000.000,00 por infração;
+III - suspensão parcial do funcionamento do serviço público digital pelo prazo de até 6 (seis) meses.
+
+Art. 8º A aplicação das sanções previstas no art. 7º observará o disposto no Decreto nº 9.876, de 27 de junho de 2019, e não exclui a responsabilização civil do agente.
+
+CAPÍTULO IV
+DA VIGÊNCIA
+
+Art. 9º Esta Lei entra em vigor em 1º de julho de 2021.
+
+Brasília, 12 de março de 2021.

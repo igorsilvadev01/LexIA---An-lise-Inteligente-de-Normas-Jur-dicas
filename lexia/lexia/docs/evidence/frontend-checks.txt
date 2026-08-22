@@ -1,0 +1,19 @@
+
+> lexia-frontend@1.0.0 typecheck
+> tsc -b
+
+eslint: sem problemas
+
+> lexia-frontend@1.0.0 build
+> tsc -b && vite build
+
+You are using Node.js 20.18.1. Vite requires Node.js version 20.19+ or 22.12+. Please upgrade your Node.js version.
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 34 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.44 kB │ gzip:  0.31 kB
+dist/assets/index-k5k257w5.css    4.48 kB │ gzip:  1.50 kB
+dist/assets/index-DpC7f1WZ.js   204.17 kB │ gzip: 64.21 kB
+✓ built in 746ms
