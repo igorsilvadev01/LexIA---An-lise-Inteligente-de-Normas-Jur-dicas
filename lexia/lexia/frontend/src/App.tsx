@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 import './App.css'
-import { api } from './api'
+import { api, IS_DEMO } from './api'
 import { DocumentsPanel } from './components/DocumentsPanel'
 import { ExtractionPanel } from './components/ExtractionPanel'
 import { MetricsPanel } from './components/MetricsPanel'
@@ -149,8 +149,9 @@ export default function App() {
       </main>
 
       <footer>
-        Backend FastAPI em <code>http://localhost:8000</code> · docs interativos em{' '}
-        <code>/docs</code>
+        {IS_DEMO
+          ? 'Demonstração pública com dados fictícios — nenhuma informação enviada é armazenada.'
+          : <>Backend FastAPI em <code>http://localhost:8000</code> · docs interativos em <code>/docs</code></>}
       </footer>
     </div>
   )

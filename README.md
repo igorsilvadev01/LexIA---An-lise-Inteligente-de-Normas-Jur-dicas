@@ -1,5 +1,7 @@
 # LexIA — Análise Inteligente de Normas Jurídicas
 
+[🚀 Abrir demonstração online](https://igorsilvadev01.github.io/LexIA---An-lise-Inteligente-de-Normas-Jur-dicas/)
+
 [![CI](https://github.com/igorsilvadev01/LexIA---An-lise-Inteligente-de-Normas-Jur-dicas/actions/workflows/ci.yml/badge.svg)](https://github.com/igorsilvadev01/LexIA---An-lise-Inteligente-de-Normas-Jur-dicas/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](lexia/lexia/LICENSE)
 
