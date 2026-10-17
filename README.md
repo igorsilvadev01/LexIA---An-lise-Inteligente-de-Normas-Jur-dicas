@@ -2,9 +2,10 @@
 
 Pipeline para ingestão, busca híbrida e extração estruturada de normas jurídicas, com avaliação automática contra um golden set anotado. O projeto oferece extrator determinístico por regras (offline) e um backend opcional por LLM, além de busca híbrida (BM25 + TF‑IDF) fusionada por RRF e métricas completas (Macro‑F1, Recall@k, MRR).
 
-> Esta pasta principal concentra o código e a documentação em `lexia/lexia/` — leia `COMECE_AQUI.md` para um passo a passo rápido.
+[![CI](https://github.com/igorsilvadev01/LexIA---An-lise-Inteligente-de-Normas-Jur-dicas/actions/workflows/ci.yml/badge.svg)](https://github.com/igorsilvadev01/LexIA---An-lise-Inteligente-de-Normas-Jur-dicas/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](lexia/lexia/LICENSE)
 
-Badges: (adicione badges de CI / cobertura quando o workflow estiver ativo)
+> Esta pasta principal reúne a documentação e os links para o projeto principal localizado em `lexia/lexia/`.
 
 ## Links rápidos
 - Documentação técnica: `lexia/lexia/README.md`
@@ -12,8 +13,8 @@ Badges: (adicione badges de CI / cobertura quando o workflow estiver ativo)
 - Backend (FastAPI): `lexia/lexia/backend`
 - Frontend (React + TypeScript): `lexia/lexia/frontend`
 - Dados de exemplo e golden set: `lexia/lexia/data`
-- Docs detalhados: `lexia/lexia/docs`
-- Licença: `lexia/lexia/LICENSE` (MIT)
+- Documentação técnica detalhada: `lexia/lexia/docs`
+- Licença: `lexia/lexia/LICENSE`
 
 ## Stack
 - Linguagens: Python (backend) + TypeScript / React (frontend)
@@ -21,7 +22,7 @@ Badges: (adicione badges de CI / cobertura quando o workflow estiver ativo)
 - Dependências notáveis: pydantic, uvicorn, pytest, vitest
 
 ## Quickstart mínimo
-Pré-requisitos: Python ≥ 3.10 e Node ≥ 20
+Pré-requisitos: Python ≥ 3.10 e Node ≥ 20.
 
 Backend
 ```bash
@@ -49,11 +50,10 @@ cd lexia/lexia/frontend && npm test
 - `lexia/lexia/backend` — ingestão, chunking por artigo, indexação, extração (rules|llm), avaliação e API
 - `lexia/lexia/frontend` — interface de carga, busca, extração e painel de métricas
 - `lexia/lexia/data` — corpus de exemplo e golden set
-- `lexia/lexia/docs` — arquitetura, API, avaliação e evidências
+- `lexia/lexia/docs` — arquitetura, API, avaliação, evidências e screenshots
 
 ## Contribuição
-Por favor, leia `CONTRIBUTING.md` (criado na raiz). Siga os testes e lint configurados no repositório (ruff / eslint / vitest).
+Leia `CONTRIBUTING.md` antes de abrir um PR. Os fluxos de lint e teste estão configurados para backend e frontend.
 
----
-
-Se quiser que eu adicione badges de CI/cobertura, me informe o nome do workflow e eu atualizo este README com os links gerados pelo GitHub Actions.
+## Licença
+MIT — veja `lexia/lexia/LICENSE`.
